@@ -1144,7 +1144,7 @@ module.exports = (_ => {
 			}
 			
 			baiduTranslate (data, callback) {
-				const credentials = (authKeys.baidu && authKeys.baidu.key || "20221009001380882 TOPnUKz8jJ32AZNOuUhX").split(" ");
+				const credentials = (authKeys.baidu && authKeys.baidu.key || "20221224001507046 cj6_jZs8_XdAUr03Ci0M").split(" ");
 				const salt = BDFDB.NumberUtils.generateId();
 				BDFDB.LibraryRequires.request("https://fanyi-api.baidu.com/api/trans/vip/translate", {
 					method: "post",
